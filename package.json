@@ -1,0 +1,32 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "new test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "random": "mkdir ./demo && jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamzanwar/test-node.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "testing"
+  ],
+  "author": "Shubham Zanwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamzanwar/test-node/issues"
+  },
+  "homepage": "https://github.com/shubhamzanwar/test-node#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "eslint": "^6.8.0"
+  }
+}
